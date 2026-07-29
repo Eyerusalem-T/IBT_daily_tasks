@@ -41,17 +41,3 @@ birth_year = int(input("Enter your birth year: "))
 current_year = 2026
 print(f"You are now {current_year - birth_year} years old.")
 
-# 4th question of day 2 exercises
-
-score = int(input("Enter your score (0-100): "))
-if score >= 90:
-    grade = "A"
-elif score >= 80:
-    grade = "B"
-elif score >= 70:
-    grade = "C"
-elif score >= 60:
-    grade = "D"
-else:
-    grade = "F"
-print(f"Your grade is: {grade}")

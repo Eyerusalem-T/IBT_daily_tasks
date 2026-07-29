@@ -40,12 +40,11 @@ def square (number):
 
 def is_even(number):
     if number % 2 ==0:
-        print(f"{number} is even.")
         return True
     else:
-        print(f"{number} is not even.")
         return False
 
 number = int(input("Enter a number: "))
 print(f"The number {number} is even: {is_even(number)}")
+
 

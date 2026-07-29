@@ -43,6 +43,14 @@ def quiz_game():
             "answer": "D"
         }
     ]
+    questions.append(
+        {
+            "question": "What is the capital of Ethiopia?",
+            "options": ["A. Addis Ababa", "B. Nairobi", "C. Cairo", "D. Khartoum"],
+            "answer": "A"
+        }
+    )       
+    
 
     score = 0
     for q in questions:
