@@ -100,7 +100,7 @@ class SavingsAccount(Account):
         config = BankConfig()
         interest = self.balance * config.interest_rate
         self.balance += interest
-        print(f"💰 Interest applied: {interest}. New balance: {self.balance}")
+        print(f"Interest applied: {interest}. New balance: {self.balance}")
 
 
 class CurrentAccount(Account):

@@ -17,23 +17,23 @@ def main():
     expense =0
 
     while True:
-        choice = input("Enter 'i' to add income, 'e' to add expense, 'b' to show balance, or 'q' to quit: ").lower()
-        if choice == 'i':
+        choice = input("Enter '1' to add income, '2' to add expense, '3' to show balance, or '4' to quit: ").lower()
+        if choice == '1':
             try:
                 income += float(input("Enter income amount: "))
             except ValueError:
                 print("Invalid input. Please enter a numeric value.")
 
-        elif choice == 'e':
+        elif choice == '2':
             try:
                 expense += float(input("Enter expense amount: "))
             except ValueError:
                 print("Invalid input. Please enter a numeric value.")
-                
-        elif choice == 'b':
-            print(f"Current balance: ${show_balance(income, expense):.2f}")
 
-        elif choice == 'q':
+        elif choice == '3':
+            print(f"Current balance: {show_balance(income, expense):.2f}")
+
+        elif choice == '4':
             exit()
 
         else:

@@ -24,7 +24,9 @@ list1 = [x for x in range(1, 31) if x % 2 == 0]
 list2 = [x for x in range(1, 31) if x % 2 != 0]
 
 #module and import
-
+with open("utils.py", "w") as f:
+    f.write("def add_tax(price, rate=0.15):\n")
+    f.write("    return price + (price * rate)\n")
 
 from utils import add_tax
 

@@ -18,7 +18,7 @@ start = time.time()
 target in test_dict
 dict_time = time.time() - start
 
-print("    1. Search Time Comparison ")
+print("    1. Search Time ")
 print(f"List search time:       {list_time:.6f} seconds")
 print(f"Dictionary search time: {dict_time:.6f} seconds")
 
@@ -43,3 +43,5 @@ deque_insert_time = time.time() - start
 print("\n   2. Insert at Beginning Comparison   ")
 print(f"List insert(0) time:   {list_insert_time:.6f} seconds")
 print(f"Deque appendleft time: {deque_insert_time:.6f} seconds")
+
+

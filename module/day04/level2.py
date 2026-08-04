@@ -38,4 +38,7 @@ class product:
         print(f"restock {quantity} of {self.name}. new stock {self.stock}")
 
 pc = product("pc",10000,10)
-print(f"product: {pc.name}  price:{pc.price}  nitial Stock: {pc.stock}")
+print(f"product: {pc.name}  price:{pc.price}  initial Stock: {pc.stock}")
+
+pc.sell(1)
+pc.restock(4)
