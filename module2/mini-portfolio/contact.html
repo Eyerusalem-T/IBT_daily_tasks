@@ -8,6 +8,7 @@
       content="Contact page for Eyerusalem's portfolio"
     />
     <title>Contact - Eyerusalem Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -23,16 +24,14 @@
     <main>
       <section>
         <h2>Contact Information</h2>
-        <p>Email: <strong>jordan.lee@example.com</strong></p>
-        <p>Phone: <strong>+251 900 000 000</strong></p>
+        <p>Email: <strong>eyerusalem0201@gmail.com</strong></p>
+        <p>Phone: <strong>+251 989188046</strong></p>
         <p>Location: Addis Ababa, Ethiopia</p>
       </section>
 
       <section>
         <h2>Send Me a Message</h2>
-        <!-- action="#" is used because this is a practice form with no real backend -->
         <form action="#" method="post">
-          <!-- Text input, required -->
           <label for="name">Full Name:</label><br />
           <input
             type="text"
@@ -62,16 +61,6 @@
             placeholder="e.g. 0912345678"
           /><br /><br />
 
-          <!-- Number input with min and max -->
-          <label for="age">Age:</label><br />
-          <input
-            type="number"
-            id="age"
-            name="age"
-            min="10"
-            max="100"
-          /><br /><br />
-
           <!-- Dropdown / select input -->
           <label for="reason">Reason for Contact:</label><br />
           <select id="reason" name="reason">
@@ -81,35 +70,6 @@
             <option value="other">Other</option></select
           ><br /><br />
 
-          <!-- Radio buttons: only one can be chosen -->
-          <p>Preferred way to be contacted:</p>
-          <input
-            type="radio"
-            id="contact_email"
-            name="contact_method"
-            value="email"
-            checked
-          />
-          <label for="contact_email">Email</label><br />
-          <input
-            type="radio"
-            id="contact_phone"
-            name="contact_method"
-            value="phone"
-          />
-          <label for="contact_phone">Phone</label><br /><br />
-
-          <!-- Checkbox -->
-          <input
-            type="checkbox"
-            id="newsletter"
-            name="newsletter"
-            value="yes"
-          />
-          <label for="newsletter">Subscribe me to occasional updates</label
-          ><br /><br />
-
-          <!-- Textarea for a longer message, required with a minimum length -->
           <label for="message">Your Message:</label><br />
           <textarea
             id="message"
@@ -130,7 +90,7 @@
     </main>
 
     <footer>
-      <p>&copy; 2026 Jordan Lee. Built for my HTML Portfolio Project.</p>
+      <p>&copy; 2026 Eyerusalem. Built for my HTML Portfolio Project.</p>
     </footer>
   </body>
 </html>

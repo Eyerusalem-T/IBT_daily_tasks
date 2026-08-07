@@ -1,0 +1,33 @@
+body {
+  color: rgb(19, 129, 225);
+  margin: 2;
+}
+p {
+  color: red;
+  font-size: 20px;
+  background-color: rgb(8, 242, 242);
+}
+img {
+  width: 500px;
+  height: 300px;
+}
+#abe {
+  color: rgb(15, 15, 15);
+}
+.intro {
+  color: white;
+  background-color: rgb(90, 242, 8);
+}
+.long {
+  border-color: black;
+  border-style: dotted;
+  background-color: rgb(219, 242, 8);
+  padding: 100px;
+}
+.long:hover {
+  background-color: rgb(56, 243, 14);
+}
+.long::first-letter {
+  color: rgb(242, 8, 8);
+  font-size: 50px;
+}
