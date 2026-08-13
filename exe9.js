@@ -50,3 +50,4 @@ async function getOrderTotal(orderId) {
 }
 
 //API : It allows different software systems to communicate with each other. APIs can be used to access data, services, or functionality provided by another application or service.
+
