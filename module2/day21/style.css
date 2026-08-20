@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+#messageArea {
+  font-weight: bold;
+}

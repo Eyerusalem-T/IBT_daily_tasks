@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ethiopian Signup & Theme Toggle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Theme Toggle -->
+  <button id="themeToggleBtn">Switch to Dark Theme</button>
+
+  <hr>
+
+  <!-- Signup Form -->
+  <h2>Sign Up</h2>
+  
+  <!-- Counter display -->
+  <p id="countDisplay">Total signups: 0</p>
+
+  <form id="signupForm">
+    <div>
+      <label for="nameInput">Full Name:</label>
+      <input type="text" id="nameInput" placeholder="e.g. Abebe Kebede">
+    </div>
+
+    <div>
+      <label for="phoneInput">Phone Number:</label>
+      <input type="text" id="phoneInput" placeholder="e.g. 092323232323">
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Error or success message area -->
+  <p id="messageArea"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
