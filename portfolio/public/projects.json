@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Tutor Web Application",
+    "subtitle": "Education Platform",
+    "description": "An intuitive web application connecting students with qualified tutors. Features interactive searching, profile management, and .",
+    "tags": ["Next.js", "Prisma", "PostgreSQL", "React"]
+  },
+  {
+    "id": 2,
+    "title": "Adey Baltina Shopping",
+    "subtitle": "E-Commerce Solution",
+    "description": "A full-featured e-commerce shopping platform built for ethiopian balitina product online shoping . Completely containerized for easy deployment and scalable performance.",
+    "tags": ["Next.js", "Prisma ORM", "Docker", "CSS3"]
+  }
+]

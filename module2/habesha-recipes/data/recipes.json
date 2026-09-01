@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Doro Wat",
+    "category": "Main Dish",
+    "prepTime": "120 mins",
+    "price": 450
+  },
+  {
+    "id": 2,
+    "name": "Shiro Wot",
+    "category": "Vegetarian",
+    "prepTime": "30 mins",
+    "price": 180
+  },
+  {
+    "id": 3,
+    "name": "Kitfo",
+    "category": "Main Dish",
+    "prepTime": "25 mins",
+    "price": 500
+  },
+  {
+    "id": 4,
+    "name": "Misir Wot",
+    "category": "Vegetarian",
+    "prepTime": "40 mins",
+    "price": 200
+  },
+  {
+    "id": 5,
+    "name": "Gomen",
+    "category": "Vegetarian",
+    "prepTime": "20 mins",
+    "price": 150
+  },
+  {
+    "id": 6,
+    "name": "Tibs",
+    "category": "Main Dish",
+    "prepTime": "30 mins",
+    "price": 420
+  },
+  {
+    "id": 7,
+    "name": "Bayeinetu",
+    "category": "Vegetarian",
+    "prepTime": "45 mins",
+    "price": 250
+  },
+  {
+    "id": 8,
+    "name": "Kik Alicha",
+    "category": "Vegetarian",
+    "prepTime": "35 mins",
+    "price": 170
+  },
+  {
+    "id": 9,
+    "name": "Chechebsa",
+    "category": "Breakfast",
+    "prepTime": "20 mins",
+    "price": 190
+  },
+  {
+    "id": 10,
+    "name": "Firfir",
+    "category": "Breakfast",
+    "prepTime": "25 mins",
+    "price": 210
+  },
+  {
+    "id": 11,
+    "name": "Gomen Besiga",
+    "category": "Main Dish",
+    "prepTime": "50 mins",
+    "price": 380
+  },
+  {
+    "id": 12,
+    "name": "Key Wat",
+    "category": "Main Dish",
+    "prepTime": "90 mins",
+    "price": 400
+  },
+  {
+    "id": 13,
+    "name": "Alicha Wat",
+    "category": "Main Dish",
+    "prepTime": "60 mins",
+    "price": 350
+  },
+  {
+    "id": 14,
+    "name": "Fosolia",
+    "category": "Vegetarian",
+    "prepTime": "25 mins",
+    "price": 140
+  },
+  {
+    "id": 15,
+    "name": "Dulet",
+    "category": "Main Dish",
+    "prepTime": "35 mins",
+    "price": 320
+  }
+]
