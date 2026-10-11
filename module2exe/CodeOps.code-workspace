@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "CodeOps",
+		"path": ".."
+	},
+	{
+		"path": "../../../brightmart-app"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Day23",
+    "git.ignoreLimitWarning": true
+  }
+}
