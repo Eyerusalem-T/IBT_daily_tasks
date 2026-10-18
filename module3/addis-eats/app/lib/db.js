@@ -1,15 +1,23 @@
-// Global in-memory storage for items and submitted orders
 export const DISHES = [
-  { id: "kitfo", name: "Kitfo Special", price: 350 },
-  { id: "shiro", name: "Shiro Tegamino", price: 180 },
-  { id: "tibs", name: "Beef Tibs", price: 320 },
-];
-
-export const ORDERS = [
   {
-    id: "order-1",
-    dishId: "kitfo",
-    phone: "0911223344",
-    customerId: "user-me",
+    id: "kitfo",
+    name: "Kitfo Special",
+    description:
+      "Minced lean beef seasoned with mitmita and herbal niter kibbeh, served with ayib and gomen.",
+    price: 350,
+  },
+  {
+    id: "shiro",
+    name: "Shiro Tegamino",
+    description:
+      "Slow-simmered spiced chickpea flour stew served bubbling hot in a traditional clay pot.",
+    price: 180,
+  },
+  {
+    id: "tibs",
+    name: "Beef Tibs",
+    description:
+      "Tender beef cubes sautéed with onions, rosemary, garlic, and sliced jalapeños.",
+    price: 320,
   },
 ];

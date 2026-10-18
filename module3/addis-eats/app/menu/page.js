@@ -1,30 +1,37 @@
 import Link from "next/link";
-import CategoryShell from "./CategoryShell";
-import DishList from "./DishList";
+import { DISHES } from "@/app/lib/db";
 
-export default async function MenuPage() {
-  // Direct server data fetching simulation (no hooks!)
-  await new Promise((resolve) => setTimeout(resolve, 800));
+export const metadata = {
+  title: "Menu",
+  description:
+    "Explore our curated menu of slow-simmered wats, sizzling tibs, and traditional platters.",
+  alternates: {
+    canonical: "/menu", // Strips ?page= and ?category= parameters for canonical ranking
+  },
+};
 
+export default function MenuPage() {
   return (
     <main>
       <h1>Addis Eats Menu</h1>
-      <p>Traditional Ethiopian dishes loaded straight from the server.</p>
+      <p>
+        Browse our traditional specialties prepared fresh daily in Addis Ababa.
+      </p>
 
-      {/* Client shell accepting server-rendered DishList through children */}
-      <CategoryShell>
-        <h2>Available Dishes</h2>
-        <DishList />
-      </CategoryShell>
-
-      <div style={{ marginTop: "20px", display: "flex", gap: "16px" }}>
-        <Link href="/" style={{ color: "blue" }}>
-          &larr; Home
-        </Link>
-        <Link href="/cart" style={{ color: "blue" }}>
-          Go to Cart &rarr;
-        </Link>
-      </div>
+      <ul>
+        {DISHES.map((dish) => (
+          <li key={dish.id} style={{ margin: "12px 0" }}>
+            <Link
+              href={`/menu/${dish.id}`}
+              style={{ color: "blue", fontWeight: "bold" }}
+            >
+              {dish.name}
+            </Link>
+            {" — "}
+            <span>{dish.price} ETB</span>
+          </li>
+        ))}
+      </ul>
     </main>
   );
 }
